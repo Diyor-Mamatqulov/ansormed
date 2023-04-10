@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/open-sans-v34-latin-regular.woff2") format("woff2"),
+  url("./fonts/open-sans-v34-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-display: swap; 
+  src: url("./fonts/open-sans-v34-latin-700.woff2") format("woff2"),
+  url("./fonts/open-sans-v34-latin-700.woff") format("woff"); 
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.site-header {
+  background-color: #e5e5e5;;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.div-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-item {
+  margin-right: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.fifth-item {
+  margin-right: 0;
+}
+.nav-link {
+  color: #222222;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #de2e54;
+}
+.write-link {
+  padding: 12px 24px;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  background-color: #de2e54;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
