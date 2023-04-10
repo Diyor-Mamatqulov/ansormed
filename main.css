@@ -70,3 +70,59 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.intro {
+  background-color: #0eb4c1;
+  
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.div-intro {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 29px; */
+  /* padding-right: 170px; */
+}
+.div-title {
+  margin-bottom: 16px;
+  padding-top: 120px;
+  /* width: 500px; */
+}
+.intro-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.div-describe {
+  margin-bottom: 48px;
+  width: 400px;
+}
+.intro-describe {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.div-intro-link {
+padding-bottom: 120px;
+}
+.intro-link {
+  padding: 12px 24px;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  background-color: #de2e54;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.div-intro-img {
+  padding-top: 29px;
+}
