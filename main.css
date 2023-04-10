@@ -203,3 +203,47 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.site-article {
+  background-color: #0eb4c1;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.div-article {
+  display: flex;
+  justify-content: center;
+}
+.article-title {
+  margin-top: 0;
+  margin-bottom: 52px;
+  padding-top: 64px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-text {
+  margin-bottom: 76px;
+  padding: 12px 24px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.article-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.first-article {
+  margin-right: 88px;
+}
