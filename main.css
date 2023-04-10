@@ -18,6 +18,7 @@
 }
 body {
   margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
 }
 .site-header {
   background-color: #e5e5e5;;
@@ -72,6 +73,7 @@ body {
 }
 .intro {
   background-color: #0eb4c1;
+  margin-bottom: 120px;
   
 }
 .container {
@@ -109,7 +111,7 @@ body {
   color: #ffffff;
 }
 .div-intro-link {
-padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 .intro-link {
   padding: 12px 24px;
@@ -125,4 +127,79 @@ padding-bottom: 120px;
 }
 .div-intro-img {
   padding-top: 29px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.service-title {
+  margin-bottom: 56px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+}
+.service-list {
+  padding-left: 0;
+  list-style: none;
+}
+.service-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.next-item {
+  margin-bottom: 72px;
+}
+.service-img {
+  margin-right: 64px;
+}
+.wrapper-service {
+  width: 600px;
+}
+.service-subtitle {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+.service-link {
+  color: #222222;
+  text-decoration: none;
+}
+.service-describe {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #444444;
+}
+.service-write {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.service-links {
+  padding: 12px 24px;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  background-color: #de2e54;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
