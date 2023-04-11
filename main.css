@@ -73,7 +73,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   transition-property: background-color;
-  transition-duration: 0.5s;
+  transition-duration: 0.5 thes;
   transition-timing-function: ease;
 }
 .write-link:hover {
@@ -91,7 +91,7 @@ body {
 }
 .intro {
   background-color: #0eb4c1;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
   
 }
 .container {
@@ -171,7 +171,9 @@ body {
   width: 1px;
 }
 .service-title {
+  margin-top: 0;
   margin-bottom: 56px;
+  padding-top: 120px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -217,7 +219,7 @@ body {
 .service-write {
   display: flex;
   justify-content: center;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .service-links {
   padding: 12px 24px;
@@ -272,9 +274,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 76px;
 }
 .article-text {
-  margin-bottom: 76px;
   padding: 12px 24px;
   border: 2px solid #ffffff;
   border-radius: 8px;
