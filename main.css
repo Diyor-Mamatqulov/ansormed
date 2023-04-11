@@ -156,6 +156,9 @@ body {
 .div-intro-img {
   padding-top: 29px;
 }
+.intro-img {
+  display: block;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
