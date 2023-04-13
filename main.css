@@ -102,10 +102,10 @@ body {
 .div-intro {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .div-title {
   margin-bottom: 16px;
-  padding-top: 120px;
 }
 .intro-title {
   margin: 0;
@@ -124,9 +124,6 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #ffffff;
-}
-.div-intro-link {
-  padding-bottom: 120px;
 }
 .intro-link {
   padding: 12px 24px;
@@ -265,8 +262,7 @@ body {
   justify-content: center;
 }
 .article-title {
-  margin-top: 0;
-  margin-bottom: 52px;
+  margin: 0;
   padding-top: 64px;
   font-weight: 700;
   font-size: 36px;
@@ -277,6 +273,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 52px;
   padding-bottom: 76px;
 }
 .article-text {
