@@ -73,7 +73,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   transition-property: background-color;
-  transition-duration: 0.5 thes;
+  transition-duration: 0.5s;
   transition-timing-function: ease;
 }
 .write-link:hover {
@@ -137,7 +137,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   transition-property: background-color;
-  transition-duration: 5s;
+  transition-duration: 0.5s;
   transition-timing-function: ease;
 }
 .intro-link:hover {
